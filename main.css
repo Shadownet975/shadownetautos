@@ -6,3 +6,19 @@
 .world {
   color: red;
 }
+body {
+  background-color: blue;
+  color: white;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: auto;
+}
+a {
+  color: white;
+}
+img {
+  height: 120px;
+}
