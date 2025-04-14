@@ -3,22 +3,20 @@
   margin: 0;
   box-sizing: border-box;
 }
-.world {
-  color: red;
-}
-body {
-  background-color: blue;
-  color: white;
-  min-height: 100dvh;
-  display: flex;
-  flex-direction: column;
-}
-footer {
-  margin-top: auto;
+.con {
+  color: grey;
+  text-transform: uppercase;
 }
 a {
-  color: white;
+  color: black;
+  justify-content: space-around;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(165, 42, 42, 0.445);
+  height: 10px;
+  width: 11px;
 }
-img {
-  height: 120px;
+a:hover {
+  color: blue;
+  text-decoration: dotted;
 }
