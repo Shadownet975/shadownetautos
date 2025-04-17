@@ -3,3 +3,54 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.about {
+  background-color: red;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.holder {
+  padding: 0.5rem 3rem;
+}
+.ele1 {
+  font-family: cursive;
+  letter-spacing: 8px;
+  font-size: 48px;
+  font-style: italic;
+}
+.ele2 {
+  font-family: initial;
+  font-style: oblique;
+  font-size: 47px;
+}
+.p1 {
+  font-family: monospace;
+  font-size: 30px;
+  font-style: inherit;
+}
+.aboutgallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.pic img:hover {
+  opacity: 0.5;
+}
+.pic {
+  width: calc(50% - 20px);
+}
+.own {
+  max-width: 1400px;
+  margin: auto;
+  padding: 2rem;
+}
+.pic img {
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
