@@ -3,3 +3,38 @@
   margin: 0;
   box-sizing: border-box;
 }
+.contact {
+  height: 70dvh;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 10%;
+  gap: 10px;
+  width: 100dvw;
+  justify-content: center;
+}
+.icons ul {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-around;
+  height: 10dvh;
+  align-items: center;
+  list-style: none;
+  font-size: 50px;
+  color: white;
+}
+.p1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 28px;
+}
+.ele {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 28px;
+}
+.ele2 {
+  font-family: cursive;
+  font-style: italic;
+}

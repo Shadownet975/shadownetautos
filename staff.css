@@ -3,3 +3,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+.staff {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  height: 80dvh;
+  align-items: center;
+  max-width: 80dvw;
+}
+.pics {
+  text-align: center;
+}
